@@ -2,17 +2,26 @@
 <html>
     <head>
         <title>Tables and Lists</title>
+
+        <style>
+          table,td,th{
+            border: 1px solid;
+            border-collapse: collapse;
+          }
+        </style>
     </head>
     <body>
 <table>
-
+<thead>
 <tr>
     <th>Firstname</th>
     <th>Lastname</th>
       <th>Age</th>
         <th>Email</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
     <td>Eda</td>
       <td>Gashi</td>
@@ -33,11 +42,106 @@
         <td>13</td>
           <td>buna@gmail.com</td>
 </tr>
+</tbody>
+
+<tfoot>
+<tr>
+  <td colspan="4">Table footer</td>
+</tr>
+</tfoot>
 </table>
 
 
+<br>
+<hr>
 
 
+<table>
+
+  <tr>
+    <th>Name:</th>
+    <td>John Doe</td>
+    <td>Richard Roe</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Email:</th>
+    <td>jondoe@gmail.com</td>
+    <td rowspan="2">richardroe@gmail.com</td>
+  </tr>
+
+  <tr>
+    <td>johndoe@hotmail.com</td>
+  </tr>
+</table>
+
+
+<hr>
+
+<ul>
+  <li>Neapolitan Pizza</li>
+  <li>Margherita Pizza</li>
+  <li>Prosciutto Pizza</li>
+</ul>
+
+
+<ul type="circle">
+  <li>Neapolitan Pizza</li>
+  <li>Margherita Pizza</li>
+  <li>Prosciutto Pizza</li>
+</ul>
+
+
+<ul type="square">
+  <li>Neapolitan Pizza</li>
+  <li>Margherita Pizza</li>
+  <li>Prosciutto Pizza</li>
+</ul>
+
+<ul type="none">
+  <li>Neapolitan Pizza</li>
+  <li>Margherita Pizza</li>
+  <li>Prosciutto Pizza</li>
+</ul>
+
+<hr>
+
+<ol start="50">
+    <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>PHP</li>
+</ol>
+
+<ol type="A">
+    <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>PHP</li>
+</ol>
+
+<ol type="I" start="10">
+    <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>PHP</li>
+</ol>
+
+<ol type="i">
+    <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>PHP</li>
+</ol>
+
+<dl>
+  <dt>Hamburger</dt>
+  <dd>Bread, meat,salad</dd>
+   <dt>Pizza</dt>
+  <dd>Mushrooms,sausage</dd>
+   <dt>Sandwich</dt>
+  <dd>Tuna,cucumber,cheese</dd>
+</dl>
 
 
 
